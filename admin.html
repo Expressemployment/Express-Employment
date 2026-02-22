@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Panel</title>
+<script>
+function checkPassword() {
+    var password = document.getElementById("pass").value;
+    if(password === "admin123"){
+        document.getElementById("content").style.display="block";
+        document.getElementById("login").style.display="none";
+    } else {
+        alert("Wrong Password");
+    }
+}
+</script>
+</head>
+<body style="background:#0d1117;color:white;text-align:center;font-family:Arial;">
+
+<div id="login">
+<h2>Admin Login</h2>
+<input type="password" id="pass" placeholder="Enter Password">
+<button onclick="checkPassword()">Login</button>
+</div>
+
+<div id="content" style="display:none;">
+<h2>Admin Dashboard</h2>
+<p>Edit jobs directly inside jobs.html file.</p>
+<p>Form submissions can be viewed in Netlify dashboard.</p>
+</div>
+
+</body>
+</html>
