@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Express Employment International header banner</title>
+  <desc id="desc">A branded banner for Express Employment International with a global work theme.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#031b34"/>
+      <stop offset="55%" stop-color="#0a4ea3"/>
+      <stop offset="100%" stop-color="#1fb6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="500" rx="28" fill="url(#bg)"/>
+  <circle cx="1350" cy="95" r="56" fill="#ffffff" opacity="0.12"/>
+  <circle cx="1450" cy="150" r="24" fill="#ffffff" opacity="0.18"/>
+  <circle cx="220" cy="110" r="40" fill="#25D366" opacity="0.22"/>
+  <g opacity="0.16" fill="#ffffff">
+    <rect x="1180" y="280" width="210" height="120" rx="16"/>
+    <rect x="1210" y="245" width="150" height="40" rx="10"/>
+    <rect x="1248" y="320" width="38" height="80" rx="8"/>
+    <rect x="1310" y="320" width="38" height="80" rx="8"/>
+  </g>
+  <g fill="#ffffff" opacity="0.12">
+    <path d="M280 330c40-62 114-103 194-103s154 41 194 103H280Z"/>
+    <circle cx="390" cy="220" r="36"/>
+    <circle cx="556" cy="220" r="36"/>
+  </g>
+  <text x="120" y="210" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Express Employment</text>
+  <text x="120" y="282" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#d9f3ff">International</text>
+  <text x="120" y="345" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#eaf6ff">Connecting skilled candidates to trusted global job opportunities.</text>
+  <g transform="translate(118,86)">
+    <rect x="0" y="0" width="92" height="92" rx="18" fill="#25D366" opacity="0.95"/>
+    <path d="M24 58h44" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+    <path d="M46 34v48" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+</svg>

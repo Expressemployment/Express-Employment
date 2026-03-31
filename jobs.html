@@ -3,20 +3,26 @@
 <head>
 <title>Job Listings - Express Employment International</title>
 <style>
-body {background:#0d1117;color:white;font-family:Arial;margin:0;text-align:center;}
-header {background:linear-gradient(to right, #001f3f, #007BFF);padding:30px 20px;}
+body {background:#0d1117;color:white;font-family:Arial,sans-serif;margin:0;text-align:center;}
+header {background:linear-gradient(to right, #001f3f, #007BFF);padding:32px 20px;}
 nav a {color:white;margin:0 12px;text-decoration:none;font-weight:bold;}
-.jobs-wrapper {max-width:900px;margin:30px auto;padding:0 20px 30px;}
-.job {background:#1c1f26;padding:20px;margin:20px 0;border-radius:10px;text-align:left;}
-.job h2 {margin-top:0;}
+.jobs-wrapper {max-width:1150px;margin:30px auto;padding:0 20px 40px;}
+.lead {max-width:760px;margin:0 auto 28px;line-height:1.6;color:#dbe8ff;}
+.jobs-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+.job {background:#1c1f26;padding:20px;border-radius:12px;text-align:left;border-left:4px solid #25D366;box-shadow:0 8px 20px rgba(0,0,0,0.2);}
+.job h2 {margin:10px 0 12px;font-size:1.2rem;}
+.badge {display:inline-block;background:#25D366;color:#072b17;padding:6px 10px;border-radius:999px;font-size:0.8rem;font-weight:bold;}
+.job p {margin:8px 0;color:#e9eef9;}
 .cta {display:inline-block;background:#007BFF;color:white;text-decoration:none;padding:12px 20px;border-radius:6px;margin:8px;}
+.whatsapp {background:#25D366;color:#072b17;font-weight:bold;}
+.actions {margin-top:30px;}
 </style>
 </head>
 <body>
 
 <header>
 <h1>Available Jobs</h1>
-<p>Explore our current overseas openings.</p>
+<p>New openings across logistics, hospitality, care, transport, and support services.</p>
 <nav>
 <a href="index.html">Home</a>
 <a href="jobs.html">Jobs</a>
@@ -27,22 +33,71 @@ nav a {color:white;margin:0 12px;text-decoration:none;font-weight:bold;}
 </header>
 
 <div class="jobs-wrapper">
+<p class="lead">Express Employment International connects candidates with trusted employers abroad. Browse the current openings below and contact us to begin your application process.</p>
+
+<div class="jobs-grid">
 <div class="job">
-<h2>Warehouse Workers - Dubai</h2>
-<p><strong>Salary:</strong> $1200/month</p>
-<p><strong>Benefits:</strong> Accommodation provided</p>
+<span class="badge">Now Hiring</span>
+<h2>Warehouse Associates - Dubai</h2>
+<p><strong>Salary:</strong> $1,200 - $1,400 / month</p>
+<p><strong>Benefits:</strong> Accommodation, overtime pay, and transport support</p>
 </div>
 
 <div class="job">
+<span class="badge">Urgent</span>
 <h2>Hotel Staff - Qatar</h2>
-<p><strong>Salary:</strong> $1500/month</p>
-<p><strong>Benefits:</strong> Free meals and transport</p>
+<p><strong>Salary:</strong> $1,500 - $1,800 / month</p>
+<p><strong>Benefits:</strong> Free meals, uniform, and duty transport</p>
 </div>
 
-<div>
+<div class="job">
+<span class="badge">Care Roles</span>
+<h2>Caregivers - Saudi Arabia</h2>
+<p><strong>Salary:</strong> $1,300 - $1,700 / month</p>
+<p><strong>Benefits:</strong> Medical cover, housing, and annual leave</p>
+</div>
+
+<div class="job">
+<span class="badge">Driving</span>
+<h2>Delivery Drivers - UAE</h2>
+<p><strong>Salary:</strong> $1,400 - $1,600 / month</p>
+<p><strong>Benefits:</strong> Fuel allowance, housing support, and bonuses</p>
+</div>
+
+<div class="job">
+<span class="badge">Construction</span>
+<h2>Construction Helpers - Oman</h2>
+<p><strong>Salary:</strong> $1,100 - $1,350 / month</p>
+<p><strong>Benefits:</strong> Site transport, meals, and safety gear</p>
+</div>
+
+<div class="job">
+<span class="badge">Security</span>
+<h2>Security Guards - Bahrain</h2>
+<p><strong>Salary:</strong> $1,250 - $1,500 / month</p>
+<p><strong>Benefits:</strong> Accommodation, uniform, and shift allowance</p>
+</div>
+
+<div class="job">
+<span class="badge">Cleaning</span>
+<h2>Housekeeping Attendants - Kuwait</h2>
+<p><strong>Salary:</strong> $1,100 - $1,300 / month</p>
+<p><strong>Benefits:</strong> Free meals, housing, and paid leave</p>
+</div>
+
+<div class="job">
+<span class="badge">Retail</span>
+<h2>Shop Assistants - Doha</h2>
+<p><strong>Salary:</strong> $1,200 - $1,450 / month</p>
+<p><strong>Benefits:</strong> Commission options and transport support</p>
+</div>
+</div>
+
+<div class="actions">
 <a class="cta" href="index.html">Back Home</a>
-<a class="cta" href="images.html">See Image Page</a>
+<a class="cta" href="images.html">See Job Images</a>
 <a class="cta" href="testimony.html">Read Testimonies</a>
+<a class="cta whatsapp" href="https://wa.me/254799451392">Apply on WhatsApp</a>
 </div>
 </div>
 

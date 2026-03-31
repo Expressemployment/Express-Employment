@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Warehouse and logistics job illustration</title>
+  <desc id="desc">Original illustration of boxes and a warehouse scene for logistics roles.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#08203e"/>
+      <stop offset="100%" stop-color="#0f62c9"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#sky)"/>
+  <rect y="430" width="900" height="170" fill="#1c1f26"/>
+  <rect x="90" y="180" width="300" height="220" rx="16" fill="#d7e8ff"/>
+  <rect x="120" y="210" width="240" height="160" rx="8" fill="#8bb8ff"/>
+  <rect x="470" y="260" width="130" height="140" rx="8" fill="#d39a58"/>
+  <rect x="620" y="220" width="150" height="180" rx="8" fill="#efb46c"/>
+  <rect x="650" y="250" width="90" height="70" rx="6" fill="#ffe0b6"/>
+  <rect x="480" y="220" width="40" height="40" rx="4" fill="#ffe0b6"/>
+  <circle cx="210" cy="450" r="32" fill="#0d1117"/>
+  <circle cx="330" cy="450" r="32" fill="#0d1117"/>
+  <rect x="180" y="360" width="180" height="40" rx="8" fill="#25D366"/>
+  <rect x="180" y="300" width="60" height="70" rx="8" fill="#25D366"/>
+  <text x="450" y="90" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Warehouse &amp; Logistics</text>
+  <text x="450" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#dceeff">Packing, loading, sorting and dispatch support</text>
+</svg>

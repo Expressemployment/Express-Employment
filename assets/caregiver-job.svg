@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+  <title id="title">Caregiver job illustration</title>
+  <desc id="desc">Original care and support illustration for caregiver roles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5a2ea6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" fill="url(#bg)"/>
+  <circle cx="320" cy="250" r="88" fill="#ffd7e9" opacity="0.95"/>
+  <circle cx="580" cy="250" r="88" fill="#ffd7e9" opacity="0.95"/>
+  <path d="M450 420c-118-70-198-140-198-225 0-53 40-95 94-95 44 0 77 23 104 57 27-34 60-57 104-57 54 0 94 42 94 95 0 85-80 155-198 225Z" fill="#ffffff" opacity="0.96"/>
+  <rect x="240" y="430" width="420" height="22" rx="11" fill="#ffffff" opacity="0.75"/>
+  <text x="450" y="90" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" fill="#ffffff">Caregiver Support</text>
+  <text x="450" y="130" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#fff2f8">Compassionate care, home support and assistance roles</text>
+</svg>
