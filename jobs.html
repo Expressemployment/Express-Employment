@@ -6,13 +6,19 @@
 body {background:#0d1117;color:white;font-family:Arial,sans-serif;margin:0;text-align:center;}
 header {background:linear-gradient(to right, #001f3f, #007BFF);padding:32px 20px;}
 nav a {color:white;margin:0 12px;text-decoration:none;font-weight:bold;}
-.jobs-wrapper {max-width:1150px;margin:30px auto;padding:0 20px 40px;}
-.lead {max-width:760px;margin:0 auto 28px;line-height:1.6;color:#dbe8ff;}
-.jobs-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+.jobs-wrapper {max-width:1180px;margin:30px auto;padding:0 20px 40px;}
+.lead {max-width:820px;margin:0 auto 18px;line-height:1.7;color:#dbe8ff;}
+.notice {max-width:900px;margin:0 auto 28px;background:#121826;border:1px solid #24314f;border-radius:12px;padding:14px 18px;color:#cfe1ff;line-height:1.6;text-align:left;}
+.jobs-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;}
 .job {background:#1c1f26;padding:20px;border-radius:12px;text-align:left;border-left:4px solid #25D366;box-shadow:0 8px 20px rgba(0,0,0,0.2);}
 .job h2 {margin:10px 0 12px;font-size:1.2rem;}
 .badge {display:inline-block;background:#25D366;color:#072b17;padding:6px 10px;border-radius:999px;font-size:0.8rem;font-weight:bold;}
 .job p {margin:8px 0;color:#e9eef9;}
+.meta {display:grid;gap:6px;margin:12px 0;}
+.meta span {display:block;background:rgba(255,255,255,0.06);padding:8px 10px;border-radius:8px;color:#f5f8ff;}
+.job ul {margin:10px 0 0 18px;padding:0;color:#e9eef9;line-height:1.5;}
+.job li {margin:6px 0;}
+.small-note {margin-top:10px;font-size:0.92rem;color:#c9d8f4;}
 .cta {display:inline-block;background:#007BFF;color:white;text-decoration:none;padding:12px 20px;border-radius:6px;margin:8px;}
 .whatsapp {background:#25D366;color:#072b17;font-weight:bold;}
 .actions {margin-top:30px;}
@@ -34,62 +40,137 @@ nav a {color:white;margin:0 12px;text-decoration:none;font-weight:bold;}
 
 <div class="jobs-wrapper">
 <p class="lead">Express Employment International connects candidates with trusted employers abroad. Browse the current openings below and contact us to begin your application process.</p>
+<div class="notice">
+<strong>Note:</strong> The details below are estimated sample packages for presentation purposes and may vary by employer, contract length, and country regulations.
+</div>
 
 <div class="jobs-grid">
 <div class="job">
 <span class="badge">Now Hiring</span>
 <h2>Warehouse Associates - Dubai</h2>
-<p><strong>Salary:</strong> $1,200 - $1,400 / month</p>
-<p><strong>Benefits:</strong> Accommodation, overtime pay, and transport support</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,200 - $1,400 / month</span>
+<span><strong>Contract:</strong> 2 years · Full-time · 8-10 hour shifts</span>
+<span><strong>Benefits:</strong> Shared accommodation, overtime pay, transport support</span>
+</div>
+<ul>
+<li>Pick, pack, label, and arrange goods for dispatch.</li>
+<li>Basic English communication and physical fitness preferred.</li>
+<li>Inventory or scanning experience is an added advantage.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> candidates with warehouse, loading, or supermarket backroom experience.</p>
 </div>
 
 <div class="job">
 <span class="badge">Urgent</span>
 <h2>Hotel Staff - Qatar</h2>
-<p><strong>Salary:</strong> $1,500 - $1,800 / month</p>
-<p><strong>Benefits:</strong> Free meals, uniform, and duty transport</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,500 - $1,800 / month</span>
+<span><strong>Contract:</strong> 2 years · Rotational shifts · 6 days/week</span>
+<span><strong>Benefits:</strong> Free meals, uniform, medical cover, duty transport</span>
+</div>
+<ul>
+<li>Roles may include housekeeping, wait staff, front desk, and kitchen support.</li>
+<li>Friendly customer service skills and neat presentation required.</li>
+<li>Previous hospitality or restaurant experience is preferred.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> applicants with hotel, restaurant, or guest service backgrounds.</p>
 </div>
 
 <div class="job">
 <span class="badge">Care Roles</span>
 <h2>Caregivers - Saudi Arabia</h2>
-<p><strong>Salary:</strong> $1,300 - $1,700 / month</p>
-<p><strong>Benefits:</strong> Medical cover, housing, and annual leave</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,300 - $1,700 / month</span>
+<span><strong>Contract:</strong> 2 years · Live-in / shift options</span>
+<span><strong>Benefits:</strong> Housing, medical cover, annual leave, return ticket</span>
+</div>
+<ul>
+<li>Assist elderly clients with daily routines, feeding, hygiene, and mobility.</li>
+<li>Patience, compassion, and basic caregiving knowledge are important.</li>
+<li>Certificate in caregiving or nursing assistance is an advantage.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> compassionate candidates with home care or health support experience.</p>
 </div>
 
 <div class="job">
 <span class="badge">Driving</span>
 <h2>Delivery Drivers - UAE</h2>
-<p><strong>Salary:</strong> $1,400 - $1,600 / month</p>
-<p><strong>Benefits:</strong> Fuel allowance, housing support, and bonuses</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,400 - $1,600 / month</span>
+<span><strong>Contract:</strong> Full-time · Route-based schedule</span>
+<span><strong>Benefits:</strong> Fuel allowance, housing support, attendance bonus</span>
+</div>
+<ul>
+<li>Deliver parcels or food orders safely and on time using assigned routes.</li>
+<li>Valid driving license and safe road habits are essential.</li>
+<li>Basic smartphone usage for maps and delivery apps is required.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> experienced drivers looking for transport or courier work abroad.</p>
 </div>
 
 <div class="job">
 <span class="badge">Construction</span>
 <h2>Construction Helpers - Oman</h2>
-<p><strong>Salary:</strong> $1,100 - $1,350 / month</p>
-<p><strong>Benefits:</strong> Site transport, meals, and safety gear</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,100 - $1,350 / month</span>
+<span><strong>Contract:</strong> Site-based · 2 years · Overtime available</span>
+<span><strong>Benefits:</strong> Site transport, meals, safety gear, accommodation</span>
+</div>
+<ul>
+<li>Support masons, carpenters, welders, and technicians on active job sites.</li>
+<li>Must be physically fit and ready for outdoor work conditions.</li>
+<li>Prior construction or general labor experience is preferred.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> strong team players with practical site or manual work experience.</p>
 </div>
 
 <div class="job">
 <span class="badge">Security</span>
 <h2>Security Guards - Bahrain</h2>
-<p><strong>Salary:</strong> $1,250 - $1,500 / month</p>
-<p><strong>Benefits:</strong> Accommodation, uniform, and shift allowance</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,250 - $1,500 / month</span>
+<span><strong>Contract:</strong> 12-hour shifts · Day/Night rotation</span>
+<span><strong>Benefits:</strong> Accommodation, uniform, shift allowance, paid leave</span>
+</div>
+<ul>
+<li>Monitor entry points, patrol assigned premises, and report incidents.</li>
+<li>Alertness, discipline, and basic report writing are required.</li>
+<li>Security training or previous guard experience is beneficial.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> candidates with security, military, or safeguarding backgrounds.</p>
 </div>
 
 <div class="job">
 <span class="badge">Cleaning</span>
 <h2>Housekeeping Attendants - Kuwait</h2>
-<p><strong>Salary:</strong> $1,100 - $1,300 / month</p>
-<p><strong>Benefits:</strong> Free meals, housing, and paid leave</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,100 - $1,300 / month</span>
+<span><strong>Contract:</strong> Hotel/residential placement · Full-time</span>
+<span><strong>Benefits:</strong> Free meals, housing, uniforms, paid leave</span>
+</div>
+<ul>
+<li>Clean guest rooms, change linens, restock supplies, and maintain hygiene standards.</li>
+<li>Attention to detail and speed in cleaning tasks are important.</li>
+<li>Previous experience in homes, hotels, or cleaning services is helpful.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> organized candidates with cleaning or room attendant experience.</p>
 </div>
 
 <div class="job">
 <span class="badge">Retail</span>
 <h2>Shop Assistants - Doha</h2>
-<p><strong>Salary:</strong> $1,200 - $1,450 / month</p>
-<p><strong>Benefits:</strong> Commission options and transport support</p>
+<div class="meta">
+<span><strong>Salary:</strong> $1,200 - $1,450 / month</span>
+<span><strong>Contract:</strong> Mall/store environment · Weekend shifts included</span>
+<span><strong>Benefits:</strong> Commission options, transport support, staff discounts</span>
+</div>
+<ul>
+<li>Assist customers, arrange shelves, handle stock, and support cashier duties.</li>
+<li>Good communication and neat appearance are required.</li>
+<li>Experience in retail, supermarket, or sales support is an advantage.</li>
+</ul>
+<p class="small-note"><strong>Ideal for:</strong> outgoing applicants who enjoy customer service and sales support.</p>
 </div>
 </div>
 
