@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Page - Express Employment International</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d1117;
+    color: white;
+}
+header {
+    background: linear-gradient(to right, #001f3f, #007BFF);
+    padding: 35px 20px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 60px;
+    text-align: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.card {
+    background: #1c1f26;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+.card .content {
+    padding: 16px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 24px;
+    background: #25D366;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+footer {
+    background: black;
+    padding: 18px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Image Page</h1>
+    <p>A quick look at destinations, job categories, and recruitment support.</p>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="images.html">Images</a>
+        <a href="testimony.html">Testimony</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Opportunity Gallery</h2>
+    <p>Browse highlights from the kinds of roles and support services we help candidates access.</p>
+
+    <div class="gallery">
+        <div class="card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%23001f3f'/%3E%3Cstop offset='1' stop-color='%23007BFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g1)' width='800' height='500'/%3E%3Ctext x='400' y='220' font-family='Arial' font-size='42' fill='white' text-anchor='middle'%3EWarehouse Roles%3C/text%3E%3Ctext x='400' y='280' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3EDubai Placement%3C/text%3E%3C/svg%3E" alt="Warehouse roles in Dubai">
+            <div class="content">
+                <h3>Dubai Logistics</h3>
+                <p>Openings for warehouse teams, loaders, packers, and dispatch support.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%230f766e'/%3E%3Cstop offset='1' stop-color='%2325D366'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g2)' width='800' height='500'/%3E%3Ctext x='400' y='220' font-family='Arial' font-size='42' fill='white' text-anchor='middle'%3EHotel Staff%3C/text%3E%3Ctext x='400' y='280' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3EQatar Opportunities%3C/text%3E%3C/svg%3E" alt="Hotel staff opportunities in Qatar">
+            <div class="content">
+                <h3>Qatar Hospitality</h3>
+                <p>Front office, housekeeping, kitchen support, and customer service roles.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g3' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%237c3aed'/%3E%3Cstop offset='1' stop-color='%23ec4899'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g3)' width='800' height='500'/%3E%3Ctext x='400' y='220' font-family='Arial' font-size='42' fill='white' text-anchor='middle'%3ETravel Support%3C/text%3E%3Ctext x='400' y='280' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3EDocument Guidance%3C/text%3E%3C/svg%3E" alt="Travel support and documentation guidance">
+            <div class="content">
+                <h3>Processing Support</h3>
+                <p>Guidance on documentation, interview readiness, and travel preparation.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='500'%3E%3Cdefs%3E%3ClinearGradient id='g4' x1='0' x2='1' y1='0' y2='1'%3E%3Cstop stop-color='%23f59e0b'/%3E%3Cstop offset='1' stop-color='%23ef4444'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23g4)' width='800' height='500'/%3E%3Ctext x='400' y='220' font-family='Arial' font-size='42' fill='white' text-anchor='middle'%3ETraining Stage%3C/text%3E%3Ctext x='400' y='280' font-family='Arial' font-size='24' fill='white' text-anchor='middle'%3ECandidate Preparation%3C/text%3E%3C/svg%3E" alt="Candidate preparation and training">
+            <div class="content">
+                <h3>Candidate Readiness</h3>
+                <p>Helpful orientation before departure so applicants feel prepared and confident.</p>
+            </div>
+        </div>
+    </div>
+
+    <a class="btn" href="https://wa.me/254799451392">Ask About Openings</a>
+</div>
+
+<footer>
+    © 2026 Express Employment International
+</footer>
+
+</body>
+</html>

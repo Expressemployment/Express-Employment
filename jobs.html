@@ -3,29 +3,48 @@
 <head>
 <title>Job Listings - Express Employment International</title>
 <style>
-body {background:#0d1117;color:white;font-family:Arial;text-align:center;}
-.job {background:#1c1f26;padding:20px;margin:20px;border-radius:10px;}
-a {color:#007BFF;text-decoration:none;}
+body {background:#0d1117;color:white;font-family:Arial;margin:0;text-align:center;}
+header {background:linear-gradient(to right, #001f3f, #007BFF);padding:30px 20px;}
+nav a {color:white;margin:0 12px;text-decoration:none;font-weight:bold;}
+.jobs-wrapper {max-width:900px;margin:30px auto;padding:0 20px 30px;}
+.job {background:#1c1f26;padding:20px;margin:20px 0;border-radius:10px;text-align:left;}
+.job h2 {margin-top:0;}
+.cta {display:inline-block;background:#007BFF;color:white;text-decoration:none;padding:12px 20px;border-radius:6px;margin:8px;}
 </style>
 </head>
 <body>
 
+<header>
 <h1>Available Jobs</h1>
+<p>Explore our current overseas openings.</p>
+<nav>
+<a href="index.html">Home</a>
+<a href="jobs.html">Jobs</a>
+<a href="images.html">Images</a>
+<a href="testimony.html">Testimony</a>
+<a href="admin.html">Admin</a>
+</nav>
+</header>
 
+<div class="jobs-wrapper">
 <div class="job">
 <h2>Warehouse Workers - Dubai</h2>
-<p>Salary: $1200/month</p>
-<p>Accommodation Provided</p>
+<p><strong>Salary:</strong> $1200/month</p>
+<p><strong>Benefits:</strong> Accommodation provided</p>
 </div>
 
 <div class="job">
 <h2>Hotel Staff - Qatar</h2>
-<p>Salary: $1500/month</p>
-<p>Free Meals & Transport</p>
+<p><strong>Salary:</strong> $1500/month</p>
+<p><strong>Benefits:</strong> Free meals and transport</p>
 </div>
 
-<br>
-<a href="index.html">Back Home</a>
+<div>
+<a class="cta" href="index.html">Back Home</a>
+<a class="cta" href="images.html">See Image Page</a>
+<a class="cta" href="testimony.html">Read Testimonies</a>
+</div>
+</div>
 
 </body>
 </html>
